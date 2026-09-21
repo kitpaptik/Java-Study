@@ -26,8 +26,8 @@ public class Ans13_08 {
 		list.remove(2);
 		
 		for(int i=0; i < list.size(); i++) {
-			Board board = (Board)list.get(i);				
 			System.out.println(board.subject + "\t" + board.content + "\t" + board.writer);
+			Board board = (Board)list.get(i);				
 		}
 	}
 }
